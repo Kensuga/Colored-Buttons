@@ -1,0 +1,77 @@
+.App-Top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.removeButtons {
+    margin: 5px;
+    box-shadow: 0px 10px 14px -7px #000000;
+	background:linear-gradient(to bottom, #ff5c5c 5%, #a85454 100%);
+	background-color:#ff5c5c;
+	border-radius:4px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+
+.addButtons {
+    margin: 5px;
+    box-shadow: 0px 10px 14px -7px #000000;
+    background:linear-gradient(to bottom, #5ee7ff 5%, #537fa6 100%);
+    background-color:#5ee7ff;
+    border-radius:4px;
+    border:1px solid #000000;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    padding:6px 12px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #000000;
+}
+
+.addButtons:hover {
+	background:linear-gradient(to bottom, #537fa6 5%, #5ee7ff 100%);
+	background-color:#537fa6;
+}
+
+.removeButtons:hover {
+    background:linear-gradient(to bottom, #a65353 5%, #ff5e5e 100%);
+    background-color:#a65353;
+}
+
+.addButtons:active {
+	position:relative;
+	top:1px;
+}
+
+.removeButtons:active {
+	position:relative;
+	top:1px;
+}
+
+.colorButton {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 10px 14px -7px #000000;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  color:#ffffff;
+  padding:6px 12px;
+  text-decoration:none;
+  text-shadow:1px 1px 5px #000000;
+}
